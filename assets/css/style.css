@@ -64,11 +64,11 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: white;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px lightblue;
     display: none;
     top: 100%;
 }
@@ -91,8 +91,83 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 78px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
+/* Form */
+#signup {
+    background-image: url("../images/Tennis.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    ...
+
+    /* Form */
+    #apply {
+        background-position: center;
+        position: relative;
+    }
+
+    #apply-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .apply-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+}
 /* Hero section */
 #hero {
     height: 600px;
@@ -105,11 +180,13 @@ main {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(241, 109, 107, .7);
     position: absolute;
-    bottom: 40px;
+    bottom: 50px;
     width: 80%;
     min-height: 200px;
     padding-top: 70px;
     padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
 }
 
 #cover-text>h2,
@@ -127,6 +204,8 @@ main {
     border-radius: 10%;
     bottom: 170px;
     left: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
 }
 
 #pricing-button {
@@ -138,7 +217,9 @@ main {
     position: absolute;
     border-radius: 10%;
     bottom: 170px;
-    left: 50%;
+    left: 40%;
+    font-family: 'Popins', sans-serif;
+    font-weight: bolder;
 }
 
 #jobs-button {
@@ -150,7 +231,9 @@ main {
     position: absolute;
     border-radius: 10%;
     bottom: 170px;
-    left: 30%;
+    left: 10%;
+    font-family: 'Popins', sans-serif;
+    font-weight: bolder;
 }
 
 /* Footer */

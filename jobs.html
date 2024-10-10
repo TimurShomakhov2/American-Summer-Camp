@@ -37,14 +37,47 @@
             </ul>
         </nav>
     </header>
-    <main>Main content</main>
+    <main>
+        <section id="apply">
+            <form id="apply-form" method="POST" action="https://formdump.codeinstitute.net"></form>
+            <h2><i class="fa-solid fa-campground"></i>Apply for a job at our Summer Camp!</h2>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first_name" id="first-name" class="text-input" required>
+            <br>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last_name" id="last-name" class="text-input" required>
+            <br>
+            <label for="email-address">Email Address</label>
+            <input type="email" name="email_address" id="email-address" class="text-input" required>
+            <br>
+            <div class="radio-buttons">
+                <div>
+                    <label for="road">Maintenance Staff</label>
+                    <input type="radio" name="running_preference" id="road" value="maintenance staff" required checked>
+                </div>
+                <div>
+                    <label for="trail">Supporting Staff</label>
+                    <input type="radio" name="running_preference" id="trail" value="supporting staff" required>
+                </div>
+                <div>
+                    <label for="both">Counselors</label>
+                    <input type="radio" name="running_preference" id="both" value="counselors" required>
+                </div>
+            </div>
+            <button type="submit" class="join-button">Apply</button>
+            </form>
+        </section>
+    </main>
     <footer>
         <ul id="social-networks">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
             <li><a href="https://x.com/" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-youtube"></i></a></li>
         </ul>
     </footer>
 
