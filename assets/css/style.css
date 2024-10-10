@@ -91,10 +91,26 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 100px;
+    margin-top: 47px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
+}
+
+#prices {
+    background-image: url("../images/Meadow.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#activities {
+    background-image: url("../images/Activities.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
 }
 
 /* Form */
