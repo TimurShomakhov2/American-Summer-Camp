@@ -1,3 +1,3 @@
-Welcome to American Summer Camp!
+# Welcome to American Summer Camp! 
 
-[Home page - PC.pdf](https://github.com/user-attachments/files/17282815/Home.page.-.PC.pdf)
+
