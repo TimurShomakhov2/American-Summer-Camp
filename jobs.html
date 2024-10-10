@@ -39,32 +39,33 @@
     </header>
     <main>
         <section id="apply">
-            <form id="apply-form" method="POST" action="https://formdump.codeinstitute.net"></form>
-            <h2><i class="fa-solid fa-campground"></i>Apply for a job at our Summer Camp!</h2>
-            <label for="first-name">First Name</label>
-            <input type="text" name="first_name" id="first-name" class="text-input" required>
-            <br>
-            <label for="last-name">Last Name</label>
-            <input type="text" name="last_name" id="last-name" class="text-input" required>
-            <br>
-            <label for="email-address">Email Address</label>
-            <input type="email" name="email_address" id="email-address" class="text-input" required>
-            <br>
-            <div class="radio-buttons">
-                <div>
-                    <label for="road">Maintenance Staff</label>
-                    <input type="radio" name="running_preference" id="road" value="maintenance staff" required checked>
+            <form id="apply-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-campground"></i>Apply for a job at our Summer Camp!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Maintenance Staff</label>
+                        <input type="radio" name="running_preference" id="road" value="maintenance staff" required
+                            checked>
+                    </div>
+                    <div>
+                        <label for="trail">Supporting Staff</label>
+                        <input type="radio" name="running_preference" id="trail" value="supporting staff" required>
+                    </div>
+                    <div>
+                        <label for="both">Counselors</label>
+                        <input type="radio" name="running_preference" id="both" value="counselors" required>
+                    </div>
                 </div>
-                <div>
-                    <label for="trail">Supporting Staff</label>
-                    <input type="radio" name="running_preference" id="trail" value="supporting staff" required>
-                </div>
-                <div>
-                    <label for="both">Counselors</label>
-                    <input type="radio" name="running_preference" id="both" value="counselors" required>
-                </div>
-            </div>
-            <button type="submit" class="join-button">Apply</button>
+                <button type="submit" class="join-button">Apply</button>
             </form>
         </section>
     </main>

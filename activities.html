@@ -16,6 +16,26 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        #cover-text {
+            /* Final rgba value sets the opacity so it is semi-transparent */
+            background-color: rgba(241, 109, 107, .7);
+            position: absolute;
+            bottom: 350px;
+            width: 90%;
+            min-height: 200px;
+            padding-top: 200px;
+            padding-left: 400px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+        }
+
+        #cover-text>h1,
+        #cover-text>p {
+            color: #ffffff;
+        }
+    </style>
 </head>
 
 <body>
@@ -38,22 +58,38 @@
         </nav>
     </header>
     <main>
-        Explore activities at our summer camp!
+        <section id="hero">
+            <div id="cover-text">
+                <h1>Explore activities at our summer camp!</h1>
+                <p>During their session, campers can select from more than thirty different activities and obtain a
+                    personalized timetable.</p>
+                    <br>
+                <h2>Our activities include:</h2>
+                <p>Adventure (Hiking, Nature Study), Arts (Painting), Athletics (Tennis, Soccer, Volleyball),
+                    Challenge (Climbing, Zipline), Equestrian (English and Western Riding, Pony Carts), Target Sports
+                    (Riflery, Archery), Waterfront (Canoeing, Swimming)
+                </p>
+            </div>
+        </section>
     </main>
     <footer>
         <ul id="social-networks">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://x.com/" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a></li>
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://x.com/" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-youtube"></i></a></li>
         </ul>
     </footer>
 
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 
     <!-- Font Awesome kit -->
